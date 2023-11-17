@@ -1,0 +1,20 @@
+export type TIADiagnosticProps = {
+	idHistoriaClinica: string;
+	nombreCompletoPaciente: string;
+	descripcionEnfermedadPaciente: string;
+	tiempoEnfermedad: number;
+	apetito: string;
+	sed: string;
+	suenio: string;
+	estadoAnimo: string;
+	orina: string;
+	deposiciones: string;
+	temperatura: number;
+	signosSintomas: string;
+	pA: number;
+	FC: number;
+	FR: number;
+	peso: number;
+	talla: number;
+	iMC: number;
+};
